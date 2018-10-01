@@ -1,0 +1,25 @@
+body{
+    background-color: #feeed6;
+}
+p{
+    color: #676565;
+    font: 15pt Arial;
+    display: inline;
+
+}
+.header{
+    text-transform: uppercase;
+    font: 45pt Arial;
+    margin: 0%;
+}
+
+.textBlue{
+    color: #378db2;
+    font: 15pt "Arial Black";
+}
+.text{
+
+}
+.crossedOutText{
+
+}
