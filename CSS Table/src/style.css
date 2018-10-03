@@ -1,0 +1,18 @@
+body{
+    font: 11px "Arial";
+    border-color: #cccccc;
+    border-width: 1px;
+}
+table{
+    border-color: #cccccc;
+    border-width: 1px;
+}
+thead{
+    background-color: #3498db;
+    color: white;
+    font-weight: bolder;
+    text-align: left;
+}
+tbody tr:nth-child(odd){
+    background: rgb(238 238 238);
+}
