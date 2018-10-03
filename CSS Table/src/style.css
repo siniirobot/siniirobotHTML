@@ -1,11 +1,14 @@
 body{
     font: 11px "Arial";
-    border-color: #cccccc;
-    border-width: 1px;
 }
 table{
+    border: cola;
+}
+td th{
+    margin: 0 0 0 0;
     border-color: #cccccc;
-    border-width: 1px;
+    border-width: 10px;
+    padding: 0px;
 }
 thead{
     background-color: #3498db;
