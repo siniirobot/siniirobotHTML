@@ -1,25 +1,35 @@
 body{
     background-color: #feeed6;
-}
-p{
+    margin-left: 14px;
+    font: 11pt Arial;
     color: #676565;
-    font: 15pt Arial;
-    display: inline;
-
 }
+
+div{
+    width: 697px;
+}
+
 .header{
     text-transform: uppercase;
-    font: 45pt Arial;
-    margin: 0%;
+    font: 26px Arial;
+    margin-bottom: 15px;
 }
 
 .textBlue{
     color: #378db2;
-    font: 15pt "Arial Black";
+    font-weight: bolder;
+    margin:  0 0 14px 0;
 }
-.text{
 
+.text{
+    margin:  0 0 24px 0;
+    font: 11pt Arial;
+    color: #676565;
+    text-indent: 20px;
 }
 .crossedOutText{
-
+    text-decoration:line-through;
+    color: #676565;
+    font: 11pt Arial;
 }
+
