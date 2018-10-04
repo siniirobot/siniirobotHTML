@@ -52,17 +52,17 @@ body{
 thead{
     background-color: #3498db;
     color: white;
-    text-align: left;
 }
 tbody tr:nth-child(odd){
     background-color: rgb(238 238 238);
 }
 
 td, th{
-    padding: 1px; /* Поля вокруг содержимого таблицы */
-    border: 1px solid #cccccc; /* Параметры рамки */
+    padding: 2px;
+    border: 1px solid #cccccc;
     text-align: left;
     height: 25px;
     margin: 100px 100px 100px 100px;
     text-indent: 6px;
+    vertical-align: middle;
 }
