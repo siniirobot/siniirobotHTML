@@ -23,55 +23,69 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
 body {
     line-height: 1;
 }
+
 ol, ul {
     list-style: none;
 }
+
 blockquote, q {
     quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-body{
+
+body {
     background-color: #feeed6;
     margin: 5px 0 0 14px;
     font: 15px Arial;
     color: #676565;
     line-height: 21px;
 }
-.text-max-width{
+
+.text-max-width {
     width: 697px;
 }
-.textBlue{
+
+.text-blue {
     color: #378db2;
-    font-weight: bolder;
-    margin:  0 0 4.5px 0;
+    font-weight: bold;
+    margin: 0 0 5px 0;
 }
-.header{
+
+.header {
     text-transform: uppercase;
     font: 26px Arial;
     margin-bottom: 7.5px;
 }
-.text{
-    margin:  0 0 8px 0;
+
+.text {
+    margin: 0 0 8px 0;
     text-indent: 20px;
+    color: #676565;
+    font-weight: normal;
 }
-.crossed-out-text{
-    text-decoration:line-through;
+
+.crossed-out-text {
+    text-decoration: line-through;
 }
 
 
