@@ -23,45 +23,67 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
 body {
     line-height: 1;
 }
+
 ol, ul {
     list-style: none;
 }
+
 blockquote, q {
     quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
 }
-table {
+
+.exactly-this-table {
     border-collapse: collapse;
 }
-body{
-    font: 11px "Arial";
+
+body {
+    font: 28px Calibri;
 }
-thead{
+
+#name{
+    width: 168px;
+}
+
+#last-name{
+    width: 168px;
+}
+
+#job{
+    width: 297px;
+}
+
+#twitter{
+    width: 190px;
+}
+.blue-background-header {
     background-color: #3498db;
     color: white;
 }
-tbody tr:nth-child(odd){
+
+.gray-and-white-background>tr:nth-child(odd) {
     background-color: rgb(238 238 238);
 }
-
-td, th{
+.exactly-this-table td, th {
     padding: 2px;
     border: 1px solid #cccccc;
     text-align: left;
-    height: 25px;
-    margin: 100px 100px 100px 100px;
+    height: 46px;
     text-indent: 6px;
     vertical-align: middle;
 }
