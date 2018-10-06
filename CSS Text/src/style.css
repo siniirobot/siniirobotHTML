@@ -64,11 +64,12 @@ body {
 .text-max-width {
     width: 697px;
 }
+
 .big-indent {
     margin: 0 0 2px 0;
 }
 
-.small-indent{
+.small-indent {
     margin: 0 0 -3px 0;
 }
 
