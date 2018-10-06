@@ -56,36 +56,40 @@ table {
 body {
     background-color: #feeed6;
     margin: 5px 0 0 14px;
-    font: 15px Arial;
+    font: 17px Arial;
     color: #676565;
-    line-height: 21px;
+    line-height: 35px;
 }
 
 .text-max-width {
     width: 697px;
 }
+.big-indent {
+    margin: 0 0 2px 0;
+}
 
-.text-blue {
+.small-indent{
+    margin: 0 0 -3px 0;
+}
+
+.textBlue {
     color: #378db2;
-    font-weight: bold;
-    margin: 0 0 5px 0;
+    font-weight: bolder;
 }
 
 .header {
     text-transform: uppercase;
-    font: 26px Arial;
-    margin-bottom: 7.5px;
+    font-size: 31px;
+    margin-bottom: 8px;
 }
 
 .text {
-    margin: 0 0 8px 0;
+    margin: 5px 0 11px 0;
     text-indent: 20px;
-    color: #676565;
-    font-weight: normal;
+    line-height: 24px;
 }
 
 .crossed-out-text {
     text-decoration: line-through;
 }
-
 
