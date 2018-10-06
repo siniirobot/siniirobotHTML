@@ -23,30 +23,37 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
 body {
     line-height: 1;
 }
+
 ol, ul {
     list-style: none;
 }
+
 blockquote, q {
     quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-body{
+
+body {
     background-color: #feeed6;
     margin: 14px 0 0 16px;
     font: 13px Arial;
@@ -54,10 +61,11 @@ body{
 
 }
 
-.form-width{
+.form-width {
     width: 619px;
 }
-.forms{
+
+.forms {
     text-indent: 10px;
     border: 0;
     height: 28px;
@@ -65,37 +73,47 @@ body{
     color: rgb(153, 153, 153);
     margin: 0 0 14.5px 0;
 }
-.forms::-webkit-input-placeholder{
+
+.forms::-webkit-input-placeholder {
     color: rgb(153, 153, 153);
 }
-.forms::-moz-placeholder{
+
+.forms::-moz-placeholder {
     color: rgb(153, 153, 153);
 }
-.forms:-ms-input-placeholder{
+
+.forms:-ms-input-placeholder {
     color: rgb(153, 153, 153);
 }
-textarea.forms{
+
+textarea.forms {
     padding: 0;
     height: 95px;
+
 }
-textarea.forms::placeholder{
-    line-height:24px;
+
+textarea.forms::placeholder {
+    line-height: 24px;
+
 }
-.text{
-    font-weight: bolder;
-    margin: 0 0 6.5px 0 ;
+
+.text {
+    font-weight: bold;
+    margin: 0 0 6.5px 0;
 }
-.blue-button{
+
+.blue-button {
     color: white;
     background-color: #378db2;
     border: 0;
     float: right;
     margin: 9px 0 0 0;
-    font-weight: bolder;
+    font-weight: bold;
     height: 28px;
     width: 132.5px;
 }
-.helper{
+
+.helper {
     color: #737373;
 }
 
