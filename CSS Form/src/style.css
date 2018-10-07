@@ -55,65 +55,78 @@ table {
 
 body {
     background-color: #feeed6;
-    margin: 14px 0 0 16px;
-    font: 13px Arial;
+    margin: 21px 0 0 16px;
+    font-size: 18px;
+    font-family: sans-serif;
     color: #676565;
-
+    font-weight: bold;
 }
 
 .form-width {
-    width: 619px;
+    width: 863px;
 }
 
 .forms {
     text-indent: 10px;
     border: 0;
-    height: 28px;
+    height: 39px;
     width: 100%;
     color: rgb(153, 153, 153);
-    margin: 0 0 14.5px 0;
+    margin: 0 0 22px 0;
+    padding: 2px 0 0 0;
 }
 
 .forms::-webkit-input-placeholder {
     color: rgb(153, 153, 153);
+    font-size: 18px;
 }
 
 .forms::-moz-placeholder {
     color: rgb(153, 153, 153);
+    font-size: 18px;
 }
 
 .forms:-ms-input-placeholder {
     color: rgb(153, 153, 153);
+    font-size: 18px;
 }
 
 textarea.forms {
     padding: 0;
-    height: 95px;
-
+    height: 138px;
+    margin: 0 0 19px 0;
 }
 
 textarea.forms::placeholder {
-    line-height: 24px;
-
+    font-family: Arial;
+    font-size: 19px;
+    padding: 9px 0 0 0;
 }
 
 .text {
     font-weight: bold;
-    margin: 0 0 6.5px 0;
+    margin: 0 0 11px 0;
 }
 
 .blue-button {
-    color: white;
+    height: 40px;
+    width: 184px;
     background-color: #378db2;
+    margin: 15px 0 0 0;
     border: 0;
     float: right;
-    margin: 9px 0 0 0;
+    color: white;
     font-weight: bold;
-    height: 28px;
-    width: 132.5px;
+    font-size: 18px;
+}
+
+.blue-button:hover {
+    cursor: pointer;
+    background-color: #377db2;
 }
 
 .helper {
     color: #737373;
+    font-weight: normal;
 }
 

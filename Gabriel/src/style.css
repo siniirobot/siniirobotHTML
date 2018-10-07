@@ -1,5 +1,5 @@
 body{
-    font-family: sans-serif;
+    font-family: Arial;
 }
 
 .yellow-header-panel ul{
@@ -10,8 +10,6 @@ body{
     padding: 0;
     font-size: 19px;
     background-color: #ffd721;
-
-
 }
 
 .yellow-header-panel li {
@@ -22,9 +20,8 @@ body{
 }
 
 .yellow-header-panel sub{
-    bottom: 0em;
-    text-decoration: none;
-    right: 45px;
+    bottom: -0.09em;
+
 }
 
 
