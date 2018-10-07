@@ -56,30 +56,32 @@ body {
     font: 28px Calibri;
 }
 
-#name{
+.name {
     width: 168px;
 }
 
-#last-name{
+.last-name {
     width: 168px;
 }
 
-#job{
+.job {
     width: 297px;
 }
 
-#twitter{
+.twitter {
     width: 190px;
 }
+
 .blue-background-header {
     background-color: #3498db;
     color: white;
 }
 
-.gray-and-white-background>tr:nth-child(odd) {
+.gray-and-white-background > tr:nth-child(odd) {
     background-color: rgb(238 238 238);
 }
-.exactly-this-table td, th {
+
+.exactly-this-table td, .exactly-this-table th {
     padding: 2px;
     border: 1px solid #cccccc;
     text-align: left;
