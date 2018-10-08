@@ -1,9 +1,18 @@
-body {
+html,body {
+    height: 100%;
     font-family: sans-serif;
+    background:linear-gradient(#fcfdfd,#dddddf) no-repeat;
 }
 
 * {
     box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'NeoSansPro-Regular';
+    src: url("../fonts/NeoSansPro-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
 
 /*yellow-header-panel*/
@@ -16,11 +25,12 @@ body {
     padding: 0;
     font-size: 19px;
     background-color: #ffd721;
+    font-family: 'NeoSansPro-Regular';
 }
 
 .yellow-header-panel li {
     display: table-cell;
-    height: 62px;
+    height: 60px;
     text-align: center;
     vertical-align: middle;
 }
