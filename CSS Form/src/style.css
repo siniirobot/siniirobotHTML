@@ -69,7 +69,7 @@ body {
 .forms {
     text-indent: 10px;
     line-height: 18px;
-    color: rgb(153, 153, 153);
+    color: rgb(120, 122, 120);
     font-size: 14px;
     height: 32px;
     width: 700px;
@@ -100,6 +100,7 @@ textarea.forms {
     resize: vertical;
     font-size: 14px;
     font-family: sans-serif;
+    color: rgb(120, 122, 120);
 }
 
 textarea.forms::placeholder {
