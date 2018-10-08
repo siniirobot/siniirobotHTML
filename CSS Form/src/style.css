@@ -55,69 +55,77 @@ table {
 
 body {
     margin: 21px 0 0 16px;
-    font-size: 18px;
     font-family: sans-serif;
     color: #676565;
     font-weight: bold;
 }
 
 .form-width {
-    width: 863px;
+    min-height: 463px;
+    width: 739px;
     background-color: #feeed6;
 }
 
 .forms {
     text-indent: 10px;
-    border: 0;
-    height: 39px;
-    width: 100%;
+    line-height: 18px;
     color: rgb(153, 153, 153);
-    margin: 0 0 22px 0;
-    padding: 2px 0 0 0;
+    font-size: 14px;
+    height: 32px;
+    width: 700px;
+    border: 0;
+    margin: 0 0 0 20px;
+    font-family: sans-serif;
 }
 
 .forms::-webkit-input-placeholder {
     color: rgb(153, 153, 153);
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .forms::-moz-placeholder {
     color: rgb(153, 153, 153);
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .forms:-ms-input-placeholder {
     color: rgb(153, 153, 153);
-    font-size: 18px;
+    font-size: 14px;
 }
 
 textarea.forms {
-    padding: 0;
-    height: 138px;
-    margin: 0 0 19px 0;
+    padding: 7px 0 0 0;
+    height: 104px;
+    margin: 0 0 16px 20px;
+    resize: vertical;
+    font-size: 14px;
+    font-family: sans-serif;
 }
 
 textarea.forms::placeholder {
-    font-family: Arial;
-    font-size: 19px;
-    padding: 9px 0 0 0;
+    font-family: sans-serif;
+    font-size: 14px;
+
 }
 
 .text {
     font-weight: bold;
-    margin: 0 0 11px 0;
+    margin: 0 0 9px 20px;
+    padding: 17px 0 0 0;
+    font-size: 14px;
+    color: #776571;
 }
 
 .blue-button {
-    height: 40px;
-    width: 184px;
+    height: 33px;
+    width: 149px;
     background-color: #378db2;
-    margin: 15px 0 0 0;
+    margin: 12px 20px 0 0;
     border: 0;
     float: right;
     color: white;
     font-weight: bold;
-    font-size: 18px;
+
 }
 
 .blue-button:hover {
@@ -127,6 +135,15 @@ textarea.forms::placeholder {
 
 .helper {
     color: #737373;
+    font-weight: normal;
+    margin: 0 0 0 20px;
+    font-size: 14px;
+}
+
+.sending{
+    margin: 0 0 5px 20px;
+    font-size: 27px;
+    color: #806d65;
     font-weight: normal;
 }
 
