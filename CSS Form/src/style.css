@@ -54,7 +54,6 @@ table {
 }
 
 body {
-    background-color: #feeed6;
     margin: 21px 0 0 16px;
     font-size: 18px;
     font-family: sans-serif;
@@ -64,6 +63,7 @@ body {
 
 .form-width {
     width: 863px;
+    background-color: #feeed6;
 }
 
 .forms {
