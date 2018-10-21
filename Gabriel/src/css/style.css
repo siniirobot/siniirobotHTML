@@ -87,6 +87,13 @@ html,body {
     border-bottom: 1px solid #DDDDDD;
 }
 
+.validators-table > thead th.validator-col {
+    width: 100px;
+    text-align: left;
+    font-size: 11px;
+}
+
+
 .validators-table th,
 .validators-table td {
     color: #7f7f7f;
@@ -96,21 +103,25 @@ html,body {
 .validators-table .validator-col {
     width: 100px;
     text-align: left;
+    font-size: 13px;
 }
 
 .validators-table .letter-col {
     width: 60px;
     text-align: center;
+    font-size: 11px;
 }
 
 .validators-table .address-col {
     text-align: left;
+    font-size: 10px;
 }
 
 .validators-table .rest-col {
     width: 90px;
     text-align: center;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 15px;
 }
 
 .validators-table .comment-col {
@@ -120,8 +131,13 @@ html,body {
 .validators-table .comment-col input {
     width: 100%;
     text-align: left;
+    height: 19px;
 }
 
+.validators-table > thead th {
+    font-size: 11px;
+    font-weight: bold;
+}
 /*End of validators-table*/
 
 /*Buttons*/
